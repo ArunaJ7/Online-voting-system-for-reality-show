@@ -1,0 +1,92 @@
+.logincon{
+	max-width: 700px;
+	width: 100vw;
+  	height: 100vh;
+	background: #fff;
+	padding: 30px 30px;
+	border-radius: 5px;
+	border: solid;
+ 	justify-content: center;
+  	align-items: center;
+	margin-left: 3750px
+}
+
+.logincon .title{
+	font-size: 25px;
+	font-weight: 500;
+	position: relative;
+}
+
+.logincon form user-details{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 20px 0 12px 0;
+}
+
+form .login-details .input-box{
+	margin-bottom: 15px;
+	width: calc(100% / 2 - 20px);
+}
+
+.login-details .input-box .details{
+	display: block;
+	font-weght: 500;
+	margin-bottom: 5px;
+}
+
+.login-details .input-box input{
+	height: 45px;
+	width: 100%;
+	outline: none;
+	border-radius: 5px;
+	border:1px solid #ccc;
+	padding-left: 15px;
+	font-size: 16px;
+	border-bottom-width: 2px;
+	transition: all 0.3s ease;
+}
+
+.login-details .input-box input:focus,
+.login-details .input-box input:valid{
+	border-color: #9b59b6;	
+}
+
+form .button{
+	height: 45px;
+	margin: 45px 0;
+}
+
+
+form .button input{
+	height: 100%;
+	width: 100%;
+	outline: none;
+	color: #fff;
+	border: none;
+	font-size: 18px;
+	font-weight: 500;
+	border-radius: 5px;
+	letter-spacing: 1px;
+	background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+form .button input:hover{
+	background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+}
+
+form .login-details .input-box{
+	margin-bottom: 15px;
+	width: 100%;
+}
+
+
+@media (max-width: 594px){
+	.logincon{
+		max-width: 100%;
+	}
+} 
+
+
+
+
