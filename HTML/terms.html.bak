@@ -1,0 +1,163 @@
+<html>
+
+<head>
+    <title>Home </title>
+    <link rel="stylesheet" href="../CSS/hdandft.css">
+    <link rel="stylesheet" href="../CSS/home.css">
+    <link rel="stylesheet" href="../CSS/card.css">
+    <!-- <link rel="stylesheet"  href="../CSS/font-awesome.min.css"> -->
+    <!-- <script src="../JS/bootstrap.bundle.min.js"></script> -->
+    <!-- <script src="../JS/jquery-3.3.1.slim.min.js"></script> -->
+</head>
+
+
+
+
+<body>
+
+    <header>
+        <a href="home.html">
+            <img src="../images/logo.jpg" width="150" , height="90">
+        </a>
+        <a href="Login.html">
+            <img src="../images/login icon.png" width="100" , height="90" align="right">
+
+            <hr>
+
+
+        </a>
+        <div class="menubar">
+            <ul class="menu">
+                <li class="menu"><a href="home.html">Home</a></li>
+                <li class="menu"><a href="contestant.html">Contestants</a></li>
+                <li class="menu"><a href="Vote.html">Vote</a></li>
+                <li class="menu"><a href="contactus.html">Contact us</a></li>
+                <li class="menu"><a href="about-us.html">About us</a></li>
+            </ul>
+        </div>
+
+        <hr>
+    </header>
+    <br>
+    <br>
+    <br>
+
+    <div class="termContainer">
+        <h3>Terms and conditions.</h3>
+        <div class="term">
+            Premium star maintains the internet portal<a href="https://www.premiumstar.lk"> www.premiumstar.lk</a>, an online arm of the reality show. Voters
+            will be voted contestants through <a href="https://www.premiumstar.lk"> www.premiumstar.lk</a> to vote their favourite contestants to win.As part of
+            the registration, as a customer you will be asked to submit user deatil of personal nature. You are
+            responsible for ensuring that the data is complete and correct. After you have completed the registration
+            process, you will receive a confirmation of your registration to your nominated e-mail address or phone
+            number.To facilitate access to the online service on premiumstar.lk, you will receive a password. You are
+            obliged to treat this password and any other access data confidential and protected from access by
+            unauthorized third parties. All information received by us are treated as private and confidential adhering
+            to legal regulations. To safeguard your privacy when voting contestants through our portal we have ensured
+            high security encryption techniques.Once successfully logged in to your profile within our portal through
+            secure log-in, you will be able to access your recently voted contestants and the preference conditions of
+            contestants.
+        </div>
+    </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <h4> Main sponsor</h4>
+        <div id="main">
+            <a href="#">
+                <img src="../images/main sponsor.png" width="100" , height="50">
+                <a>
+        </div>
+
+        <h4> Co-sponsors</h4>
+        <div id="c1">
+            <a href="#">
+                <img src="../images/co sponsors1.png" width="100" , height="50">
+                <a>
+        </div>
+
+
+
+        <div id="c2">
+            <a href="#">
+                <img src="../images/cosponsor2.png" width="100" , height="50">
+                <a>
+        </div>
+
+
+        <div id="c3">
+            <a href="#">
+                <img src="../images/co sponsor3.png" width="100" , height="50">
+                <a>
+        </div>
+
+
+        <div id="terms">
+            <a href="terms.html"> Terms & conditions<br> </a>
+            <a href="privacy.html"> Privacy & policy<br></a>
+             <a href="../HTML/help.html"> Help<br> </a>
+
+
+        </div>
+
+
+
+
+        <center>
+            <p> Follow us</p>
+        </center>
+        <div id="fb">
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="../images/facebook.png" width="20" , height="30">
+                <a>
+        </div>
+
+        <div id="twitter" >
+            <a href="https://twitter.com/i/flow/login" target="_blank">
+                <img src="../images/twitter.png" width="20" , height="30">
+                <a>
+        </div>
+
+        <div id="insta" >
+            <a href="https://www.instagram.com/accounts/login/" target="_blank">
+                <img src="../images/instagram.png" width="20" , height="30">
+                <a>
+        </div>
+
+        <div id="youtube" >
+            <a href="https://www.youtube.com/" target="_blank">
+                <img src="../images/youtube.png" width="20" , height="30">
+                <a>
+        </div>
+    </footer>
+</body>
+
+
+
+
+
+
+</html>
