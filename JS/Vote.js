@@ -1,0 +1,108 @@
+function displayTime(){
+	 var dateTime = new Date();
+	 var hrs = dateTime.getHours();
+	 var min = dateTime.getMinutes();
+	 var sec = dateTime.getSeconds();
+	 var AmorPm = document.getElementById('AmorPm');
+	 
+	 var dte = dateTime.getDate();
+	 var yr  = dateTime.getFullYear();
+	 var mnth = dateTime.getMonth();
+ 	 
+	 
+	 if(hrs >=12)
+	 {
+		 AmorPm.innerHTML = 'PM';
+		 
+	 }
+	 
+	 else 
+	 {
+		 AmorPm = 'PM';
+	 }
+	 
+	 if(hrs > 12)
+	 {
+		 hrs = hrs - 12;
+	 }
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 document.getElementById('hours').innerHTML = hrs;
+	 document.getElementById('minutes').innerHTML = min;
+	 document.getElementById('seconds').innerHTML = sec;
+	 
+	 
+	 document.getElementById("year").innerHTML = yr;
+	 
+	 
+	
+		if(mnth==0)
+		{
+			document.getElementById('month').innerHTML = "January";
+		}
+			
+		else if(mnth==1)
+		{
+			document.getElementById('month').innerHTML = "February";
+		}	
+			
+			else if(mnth==2)
+		{
+			document.getElementById('month').innerHTML = "March";
+		}	
+		else if(mnth==3)
+		{
+			document.getElementById('month').innerHTML = "April";
+		}	
+		else if(mnth==4)
+		{
+			document.getElementById('month').innerHTML = "May";
+		}	
+		else if(mnth==5)
+		{
+			document.getElementById('month').innerHTML = "June";
+		}	
+		else if(mnth==6)
+		{
+			document.getElementById('month').innerHTML = "July";
+		}	
+		else if(mnth==7)
+		{
+			document.getElementById('month').innerHTML = "August";
+		}	
+		
+		else if(mnth==8)
+		{
+			document.getElementById('month').innerHTML = "September";
+		}	
+		else if(mnth==9)
+		{
+			document.getElementById('month').innerHTML = "October";
+		}	
+		else if(mnth==10)
+		{
+			document.getElementById('month').innerHTML = "November";
+		}	
+		else if(mnth==11)
+		{
+			document.getElementById('month').innerHTML = "December";
+		}	
+		
+	
+
+
+
+
+	document.getElementById("day").innerHTML = dte;
+	 
+	 
+	 
+}
+
+setInterval(displayTime, 10);
