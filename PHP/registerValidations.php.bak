@@ -1,0 +1,65 @@
+<?php
+
+  function inputEmptyRegister($FNAME,$LNAME,$VEMAIL,$PSWD,$RPSWD,$TP)
+  {
+	  $value;
+	  if(empty($FNAME) || empty($LNAME) || empty($VEMAIL) ||empty($PSWD)|| empty($RPSWD)||empty($TP))
+	  {
+		  $value = true;
+	  }
+	  else 
+		{
+		   $value = false;
+		}
+		
+		return $value;
+  }
+  
+   function nameInvalid($FNAME,$LNAME)
+   {
+	   $value;
+	   if(!preg_match("/^[a-zA-Z]+$", $FNAME))
+	   {
+		   $value = true;
+	   }
+	   
+	   else if(!preg_match("/^[a-zA-Z]+$", $LNAME))
+	   {
+		   $value = true;
+	   }
+	   else
+	   {
+		   $value = false;
+	   }
+	   
+	   return $value;
+   }
+
+	function  emailInvalid($VEMAIL)
+	{
+		$value;
+	 	if(!preg_match("/^[a-zA-Z\d\._-]+@[a-zA-Z\d\_-]+\.+[a-zA-Z\d\.]{2,}$/", $VEMAIL))
+	   {
+		   $value = true;
+	   }
+	   else
+	   {
+		   $value = false;
+	   }
+	}   
+	
+	   function passNotMatch($PSWD,$RPSWD)
+	   {
+		   $value;
+		   if($PSWD !== $RPSWD )
+		   {
+			   $value =true;
+		   }
+		   else {
+			   $value = false;
+		   }
+		   return $value;
+	   }
+	
+
+?>
